@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>template-html-website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="sticky">
+            <ul class="main-nav">
+                <li class="mobile-nav-item">
+                    <a id="openbtn" href="javascript:void(0)" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                    <a id="closebtn" href="javascript:void(0)" onclick="closeNav()"><i class="fa fa-times"></i></a>
+                </li>
+                
+                <li><a href="#">LOGO</a></li>
+                <li class="main-nav-item"><a href="#">Home</a></li>
+                <li class="main-nav-item"><a href="#">Gallery</a></li>
+                <li class="main-nav-item"><a href="">Join Us</a></li>
+            </ul>
+            <ul id="mobileNav" class="mobile-nav">
+                <li><span><a href="#">Home</a><i class="push-left fa fa-angle-right"></i></span></li>
+                <li><span><a href="#">Gallery</a><i class="push-left fa fa-angle-right"></i></span></li>
+                <li><span><a href="#">Join Us</a><i class="push-left fa fa-angle-right"></i></span></li>
+            </ul>
+            <div id="modalNav" class="modal-nav" onclick="closeNav()"></div>
+        </nav>
+    </header>
+    
+    <div id="main">
+        <div id="cover" class="cover">
+            <img src="assets/img/unpaint.png" alt="image unpaint screen">
+        </div>
+        <hr>
+        <h2 class="greyText centeredText">Section header</h2>
+        <div class="grid">
+            <div class="grid-item grid-zone">
+                <img src="./assets/img/monitor.png" alt="image monitor">
+            </div>
+            <div class="grid-item grid-zone">
+                <img src="./assets/img/desktop.png" alt="image desktop">
+            </div>
+            <div class="grid-item grid-zone">
+                <img src="./assets/img/notebook.png" alt="image notebook">
+            </div>
+            <div class="grid-item grid-zone">
+                <img src="./assets/img/files.png" alt="image files">
+            </div>
+            <div class="grid-item grid-zone">
+                <img src="./assets/img/files.png" alt="image files">
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="footer-color">
+        &copy; 2019 template-html-website, by iChristiano &reg;
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
